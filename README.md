@@ -23,9 +23,11 @@ more cuda dependencies information in :https://onnxruntime.ai/docs/execution-pro
         train a cross-encoder model in: https://github.com/TTurn/cross-encoder
 #### 2.export model from pytorch
     python3.8 convert_onnx.py
+    https://blog.csdn.net/choose_c/article/details/124481697
     
 #### 2.quantiz model
     python3.8 quantize.py
+    https://blog.csdn.net/choose_c/article/details/124482056
   
 #### 3.optimize the onnx model
     python3.8 optimize.py
