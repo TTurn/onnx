@@ -2,17 +2,17 @@
 
 ### requirments
 
-    #### cpu:
-        transformers==4.2.1
-        torch==1.8.1+cu101
-        onnxruntime==1.10.0
-        sentence-transformers==2.0.0
-    #### gpu:
-        sentence-transformers==2.0.0
-        transformers==4.2.1
-        onnxruntime-gpu==1.4.0
-        torch==1.8.1+cu101
-        CUDA Version: 10.1
+#### cpu:
+    transformers==4.2.1
+    torch==1.8.1+cu101
+    onnxruntime==1.10.0
+    sentence-transformers==2.0.0
+#### gpu:
+    sentence-transformers==2.0.0
+    transformers==4.2.1
+    onnxruntime-gpu==1.4.0
+    torch==1.8.1+cu101
+    CUDA Version: 10.1
 
 more cuda dependencies information in :https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html
 
