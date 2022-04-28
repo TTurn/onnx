@@ -18,18 +18,17 @@ more cuda dependencies information in :https://onnxruntime.ai/docs/execution-pro
 
 
 ### usage:
-    1.tran a pytorch model 
-      example:
+#### 1.tran a pytorch model 
+    example:
         train a cross-encoder model in: https://github.com/TTurn/cross-encoder
-    2.export model from pytorch
-      python3.8 convert_onnx.py
+#### 2.export model from pytorch
+    python3.8 convert_onnx.py
     
-    2.quantiz model
-    '''bash
-      python3.8 quantize.py
-    '''
-    3.optimize the onnx model
-      python3.8 optimize.py
+#### 2.quantiz model
+    python3.8 quantize.py
+  
+#### 3.optimize the onnx model
+    python3.8 optimize.py
 
-    4.test 
+#### 4.test 
     python3.8 test_onnx.py
