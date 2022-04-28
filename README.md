@@ -2,12 +2,12 @@
 
 ### requirments
 
-    cpu:
+    #### cpu:
         transformers==4.2.1
         torch==1.8.1+cu101
         onnxruntime==1.10.0
         sentence-transformers==2.0.0
-    gpu:
+    #### gpu:
         sentence-transformers==2.0.0
         transformers==4.2.1
         onnxruntime-gpu==1.4.0
